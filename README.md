@@ -16,7 +16,7 @@ This project was developed to integrate and explore the functionalities of the *
 
 ### 🛠️ Technologies Used
 * **Language:** Java 21
-* **Framework:** Spring Boot 4.0.6 (Web, DevTools)[cite: 3]
-* **API:** [Spotify Web API Java](https://github.com/thelinmichael/spotify-web-api-java)[cite: 3]
-* **Dependency Manager:** Maven[cite: 3]
-* **Productivity:** Lombok[cite: 3]
+* **Framework:** Spring Boot 4.0.6 (Web, DevTools)
+* **API:** [Spotify Web API Java](https://github.com/thelinmichael/spotify-web-api-java)
+* **Dependency Manager:** Maven
+* **Productivity:** Lombok
