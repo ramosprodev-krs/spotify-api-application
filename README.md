@@ -2,18 +2,19 @@
 |                               🟢 spotify-api-application                               |
 +-----------------------+---------------------------------------------------------------+
 |                       |                                                               |
-|  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/3840px-Spotify_logo_without_text.svg.png">      |  An efficient Spring Boot application featuring               |
-|                       |  the use of Spotify Web API Java.                             |
+|   [IMAGE SOURCE]      |  An efficient Spring Boot application featuring               |
+|   Spotify Logo Link:  |  the use of Spotify Web API Java.                             |
+|   https://rb.gy/h6m9z |                                                               |
 |                       |                                                               |
 +-----------------------+---------------------------------------------------------------+
 
-### 🚀 About the Project
-This project was developed to integrate and explore the functionalities of the Spotify API, 
-utilizing development best practices within the Java ecosystem.
+### 🚀 About the Project[cite: 1]
+This project was developed to integrate and explore the functionalities of the Spotify API,[cite: 1] 
+utilizing development best practices within the Java ecosystem.[cite: 1]
 
-### 🛠️ Technologies Used
-* Language: Java 21
-* Framework: Spring Boot 3.2.5 (Web, DevTools)
-* API: Spotify Web API Java
-* Dependency Manager: Maven
-* Productivity: Lombok
+### 🛠️ Technologies Used[cite: 1]
+* Language: Java 21[cite: 1]
+* Framework: Spring Boot 3.2.5 (Web, DevTools)[cite: 1]
+* API: Spotify Web API Java[cite: 1]
+* Dependency Manager: Maven[cite: 1]
+* Productivity: Lombok[cite: 1]
