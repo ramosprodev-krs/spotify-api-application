@@ -2,7 +2,7 @@
 
 This project was developed in **Java 21** using **Spring Boot 4.0.6**.
 
-A (**JWT**) and **NoSQL** data persistence (**MongoDB**).
+A efficient Spring Boot application featuring the use of **Spotify Web API Java**.
 
 ### Technologies used:
 - Java 21 
