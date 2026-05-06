@@ -2,9 +2,9 @@
 |                               🟢 spotify-api-application                               |
 +-----------------------+---------------------------------------------------------------+
 |                       |                                                               |
-|   [IMAGE SOURCE]      |  An efficient Spring Boot application featuring               |
-|   Spotify Logo Link:  |  the use of Spotify Web API Java.                             |
-|   https://rb.gy/h6m9z |                                                               |
+|        |  An efficient Spring Boot application featuring               |
+|     |  the use of Spotify Web API Java.                             |
+|    |                                                               |
 |                       |                                                               |
 +-----------------------+---------------------------------------------------------------+
 
