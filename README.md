@@ -1,5 +1,4 @@
-# <span> <img width="30" height="30" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/3840px-Spotify_logo_without_text.svg.png"/> </span> <span>spotify-api-application </span>
-
+# <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/3840px-Spotify_logo_without_text.svg.png" width="30" height="30" align="center"> spotify-api-application
 This project was developed in **Java 21** using **Spring Boot 4.0.6**.
 
 A efficient Spring Boot application featuring the use of **Spotify Web API Java**.
