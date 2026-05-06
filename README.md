@@ -1,6 +1,6 @@
 <div align="center">
 
-# | <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/3840px-Spotify_logo_without_text.svg.png" width="120"> | **An efficient Spring Boot application featuring the use of Spotify Web API Java.** |
+| <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Spotify_logo_without_text.svg/3840px-Spotify_logo_without_text.svg.png" width="120"> | **An efficient Spring Boot application featuring the use of Spotify Web API Java.** |
 | :--- | :--- |
 
 </div>
