@@ -113,6 +113,7 @@ public class SpotifyService {
                     .map(artist -> new SpotifyArtistDTO(
                             artist.getId(),
                             artist.getName(),
+                            artist.getExternalUrls().get("spotify"),
                             artist.getImages()[1].getUrl()
                     )).toList();
 
