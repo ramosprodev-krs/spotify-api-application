@@ -34,6 +34,7 @@ Before running the application, ensure you have the following installed:
 ### Quick guide
 In order to run the application, please follow the next steps:
 
+---
 #### 1. Cloning the Repository
 Open your terminal or command prompt and execute the following command:
 
@@ -41,6 +42,7 @@ Open your terminal or command prompt and execute the following command:
 git clone https://github.com/ramosprodev-krs/spotify-api-application.git
 ```
 
+---
 #### 2. Accessing the Project Folder
 After cloning, navigate into the project directory:  
 
@@ -48,6 +50,7 @@ After cloning, navigate into the project directory:
 cd spotify-api-application
 ```
 
+---
 #### 3. Configuration (application.properties)
 Now, you need to add your Spotify API credentials directly into the configuration file.  
 
@@ -60,6 +63,7 @@ spotify.client.secret=YOUR_CLIENT_SECRET (replace with your client secret)
 spotify.redirect.uri=http://127.0.0.1:8080/spotify/api/callback
 ```
 
+---
 #### 4. Running the Application
 Once the application.properties is updated, compile and run the Spring Boot application using the Maven Wrapper:  
 
@@ -71,6 +75,7 @@ mvnw.cmd spring-boot:run
 
 The server will start at http://localhost:8080.  
 
+---
 #### 5. Authentication and Authorization
 To interact with the Spotify API, you must first authorize the application to access your data.
 
@@ -85,17 +90,22 @@ To interact with the Spotify API, you must first authorize the application to ac
 
 4. Success: Once you see the message "You are successfully authenticated!", the application is ready to fetch your data.
 
+---
 #### 6. Available Endpoints
 After authentication, you can access the following data directly in your browser or via tools like Postman or Insomnia:
 
-- /spotify/api/current-user    - Display the user logged in.
-- /spotify/api/my-saved-albums  - List your saved albums in the library.
-- /spotify/api/my-saved-tracks  - List your saved tracks in the library.
-- /spotify/api/my-top-tracks    - Display your most listened tracks.
-- /spotify/api/my-top-artists   - Display your most listened artists.
+| Endpoint | Function |
+| :--- | :--- |
+| /spotify/api/current-user | Display the user logged in. |
+| /spotify/api/my-saved-albums | List your saved albums in the library. |
+| /spotify/api/my-saved-tracks | List your saved tracks in the library. |
+| /spotify/api/my-top-tracks | Display your most listened tracks. |
+| /spotify/api/my-top-artists | Display your most listened artists. |
 
 ##### Important Developer Notes
 - Token Persistence: The Access Token is stored in memory. If you restart the Spring Boot application, you must go through the /login flow again.
 - Redirect URI: Ensure that the 'spotify.redirect.uri' in your application.properties exactly matches the one registered in your Spotify Developer Dashboard (e.g., check for 127.0.0.1 vs localhost).
 - Data Format: All endpoints (except login/callback) return data in JSON format using optimized DTOs.
+
+---
 
