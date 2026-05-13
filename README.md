@@ -108,4 +108,11 @@ After authentication, you can access the following data directly in your browser
 - Data Format: All endpoints (except login/callback) return data in JSON format using optimized DTOs.
 
 ---
+## Contact me!
+If you found this project helpful, please consider giving it a ⭐ to support its development!
+
+### Here are a few ways to contact me:  
+- <img width="20" height="20" alt="image" src="https://cdn-icons-png.flaticon.com/512/25/25231.png"> [More of my projects](www.linkedin.com/in/ramosprodev)
+- <img width="20" height="20" alt="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/LinkedIn_icon.svg/120px-LinkedIn_icon.svg.png?_=20210220164014"> [My LinkedIn profile)(www.linkedin.com/in/ramosprodev)
+- <img width="20" height="20" alt="image" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Gmail_icon_%282020%29.svg/330px-Gmail_icon_%282020%29.svg.png"> [My G-mail] (ramosprodev@gmail.com)
 
