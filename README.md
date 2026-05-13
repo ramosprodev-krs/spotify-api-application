@@ -14,6 +14,15 @@
 ### About the Project
 This project was developed to integrate and explore the functionalities of the **Spotify API**, utilizing development best practices within the Java ecosystem.
 
+---
+
+#### 3. Prerequisites
+Before running the application, ensure you have the following installed:
+- Java JDK 17 or higher
+- Maven 3.8+ (optional, as you can use the included Maven Wrapper)
+- A Spotify Developer account to obtain API credentials
+
+---
 ### 🛠️ Technologies Used
 * **Language:** Java 21
 * **Framework:** Spring Boot 4.0.6 (Web, DevTools)
@@ -21,6 +30,7 @@ This project was developed to integrate and explore the functionalities of the *
 * **Dependency Manager:** Maven
 * **Productivity:** Lombok
 
+---
 ### Quick guide
 In order to run the application, please follow the next steps:
 
