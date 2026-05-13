@@ -11,7 +11,7 @@
 
 ---
 
-### 🚀 About the Project
+### About the Project
 This project was developed to integrate and explore the functionalities of the **Spotify API**, utilizing development best practices within the Java ecosystem.
 
 ### 🛠️ Technologies Used
@@ -20,3 +20,23 @@ This project was developed to integrate and explore the functionalities of the *
 * **API:** [Spotify Web API Java](https://github.com/thelinmichael/spotify-web-api-java)
 * **Dependency Manager:** Maven
 * **Productivity:** Lombok
+
+### Quick guide
+In order to run the application, please follow the next steps:
+
+#### 1. Cloning the Repository
+Open your terminal or command prompt and execute the following command:
+
+```bash 
+git clone https://github.com/ramosprodev-krs/spotify-api-application.git
+```
+
+#### 3. Accessing the Project Folder
+After cloning, navigate into the project directory:
+
+```bash 
+cd spotify-api-application
+```
+
+Next steps for environment configuration and running the application will follow.
+
