@@ -34,7 +34,6 @@ Before running the application, ensure you have the following installed:
 ### Quick guide
 In order to run the application, please follow the next steps:
 
----
 #### 1. Cloning the Repository
 Open your terminal or command prompt and execute the following command:
 
