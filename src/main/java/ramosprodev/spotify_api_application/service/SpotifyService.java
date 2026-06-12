@@ -5,6 +5,8 @@ import org.springframework.stereotype.Service;
 import ramosprodev.spotify_api_application.dto.SpotifyAlbumDTO;
 import ramosprodev.spotify_api_application.dto.SpotifyArtistDTO;
 import ramosprodev.spotify_api_application.dto.SpotifyTrackDTO;
+import ramosprodev.spotify_api_application.exception.AuthenticationException;
+import ramosprodev.spotify_api_application.exception.SpotifyApiException;
 import se.michaelthelin.spotify.SpotifyApi;
 import se.michaelthelin.spotify.exceptions.SpotifyWebApiException;
 
@@ -27,7 +29,7 @@ public class SpotifyService {
             var user = spotifyApi.getCurrentUsersProfile().build().execute();
             return user.getDisplayName();
         } catch (IOException | ParseException | SpotifyWebApiException e) {
-            throw new RuntimeException(e);
+            throw new SpotifyApiException("Failed to get current user profile", e);
         }
     }
 
@@ -50,7 +52,7 @@ public class SpotifyService {
                     }).toList();
 
         } catch (IOException | ParseException | SpotifyWebApiException e) {
-            throw new RuntimeException(e);
+            throw new SpotifyApiException("Failed to get saved albums", e);
         }
     }
 
@@ -75,7 +77,7 @@ public class SpotifyService {
                     }).toList();
 
         } catch (IOException | ParseException | SpotifyWebApiException e) {
-            throw new RuntimeException(e);
+            throw new SpotifyApiException("Failed to get saved tracks", e);
         }
     }
 
@@ -97,7 +99,7 @@ public class SpotifyService {
                     )).toList();
 
         } catch (IOException | ParseException | SpotifyWebApiException e) {
-            throw new RuntimeException(e);
+            throw new SpotifyApiException("Failed to get top tracks", e);
         }
     }
 
@@ -118,7 +120,7 @@ public class SpotifyService {
                     )).toList();
 
         } catch (IOException | ParseException | SpotifyWebApiException e) {
-            throw new RuntimeException(e);
+            throw new SpotifyApiException("Failed to get top artists", e);
         }
     }
 
@@ -140,7 +142,7 @@ public class SpotifyService {
             spotifyApi.setRefreshToken(credentials.getRefreshToken());
 
         } catch (Exception e) {
-            throw new RuntimeException("Failed to exchange code: " + e.getMessage());
+            throw new AuthenticationException("Failed to exchange authorization code for token", e);
         }
     }
 
